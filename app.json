@@ -1,9 +1,9 @@
 {
-  "name": "HyperX Music",
+  "name": "Pink Panther Vc",
   "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram"],
   "logo": "https://telegra.ph/file/99446be35330477534a5d.jpg",
-  "repository": "https://github.com/ItsmeHyper13/DevuMusic",
+  "repository": "https://github.com/Captainamarica/Pink-Panther-VC-7r2x",
   "stack": "container",
   "env": {
     "SESSION_NAME": {
