@@ -18,12 +18,12 @@ def start_(bot, message):
 
     START_BUTTON = [
                 [
-                    InlineKeyboardButton(text="Updates", url=f"https://t.me/SILENT_BOTS"),
+                    InlineKeyboardButton(text="Updates", url=f"https://t.me/NightVission"),
                     InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ💥", url=f"http://t.me/{BOT_USERNAME}?startgroup=true"),
                 ],
                 [
                     InlineKeyboardButton(text="Owner", url=f"https://t.me/{OWNER_USERNAME}"),
-                    InlineKeyboardButton(text="Source✨", callback_data="repo_k"),
+                    InlineKeyboardButton(text="More Bots", callback_data="repo_k"),
                 ],                
                 [                    
                     InlineKeyboardButton(text="Help & Commands!", callback_data="help_"),
@@ -77,10 +77,10 @@ def callback_query(Client, callback: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(HELP_BUTTON)
         )
     elif callback.data == "repo_k":
-        REPO_MSG = f"""Hey, Here is the source code of {BOT_NAME} \nSo deploy your own and enjoy and don't forget to fork nd to give star 😕!!"""
+        REPO_MSG = f"""Hey, Here is the update chanel of {BOT_NAME} \nSo join us & know more details 😕!!"""
         REPO_BUTTONS = [
             [
-                InlineKeyboardButton(text="Source", url="https://github.com/ItsmeHyper13/DevuMusic"),
+                InlineKeyboardButton(text="Source", url="https://t.me/NightVission"),
                 InlineKeyboardButton(text="Back", callback_data="HOME"),
             ],
         ]
@@ -93,12 +93,12 @@ def callback_query(Client, callback: CallbackQuery):
         START_TEXT = f"""Hey, Myself {BOT_NAME} \nA simple , lagfree and flexible music robot!\nIf you facing any issue related to this music bot then please join @{SUPPORT_GROUP}\nFor more help you can explorer help menu by tapping on /help !"""
         START_BUTTON = [
                     [
-                        InlineKeyboardButton(text="Updates", url="https://t.me/SILENT_BOTS"),
+                        InlineKeyboardButton(text="Updates", url="https://t.me/NightVission"),
                         InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ💥", url=f"http://t.me/{BOT_USERNAME}?startgroup=true"),
                     ],
                     [
                         InlineKeyboardButton(text="Owner", url=f"https://t.me/{OWNER_USERNAME}"),
-                        InlineKeyboardButton(text="Source✨", callback_data="repo_k"),
+                        InlineKeyboardButton(text="More Bots", callback_data="repo_k"),
                     ],                
                     [                    
                         InlineKeyboardButton(text="Help & Commands!", callback_data="help_"),
